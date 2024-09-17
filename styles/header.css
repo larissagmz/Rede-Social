@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 2px solid;
+    background-color: var(--grey-1);
+    color: var(--whiteFixed);
+    margin-bottom: 48px;
+}
+header h1{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--font-height-1);
+}
+.button-header{
+    color: var(--whiteFixed);
+    background: none;
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+}

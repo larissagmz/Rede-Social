@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/globalStyles.css" />
+        <link rel="stylesheet" href="./styles/form.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <link rel="stylesheet" href="./styles/posts.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="stylesheet" href="./styles/modal.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="container" id="title-header">
+                <h1>TechPosters</h1>
+                <button class="button-header">Sair</button>
+            </div>
+        </header>
+        <main class="container">
+            <div class="desktop-model">
+                <section class="section-sent-posts">
+                    <div class="information-profile">
+                        <figure>
+                            <img src="./assets/salomaoLeao.png" alt="" />
+                        </figure>
+                        <div>
+                            <h1>Samuel Leão</h1>
+                            <p>Front end Engineer</p>
+                        </div>
+                    </div>
+                    <form class="form-sent-post" action="">
+                        <input
+                            type="text"
+                            id="posts"
+                            placeholder="Digitar título do post"
+                        />
+
+                        <textarea
+                            name=""
+                            id="text"
+                            class=""
+                            placeholder="Digitar descricao do post"
+                        ></textarea>
+                        <button class="button-form">Postar</button>
+                    </form>
+                </section>
+                <aside class="follow-suggestion">
+                    <h2>Sugestões para você seguir</h2>
+                    <ul class="suggestion-list-posts"></ul>
+                </aside>
+            </div>
+            <section class="section-posts">
+                <h1>Posts</h1>
+            </section>
+        </main>
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>

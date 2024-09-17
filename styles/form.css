@@ -1,0 +1,65 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.information-profile figure{
+    min-width: 52px;
+    min-height: 52px;
+}
+.section-sent-posts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+.section-sent-posts input, .section-sent-posts textarea{
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid var(--grey-4);
+    border-radius: 4px;
+    color: var(--grey-2);
+    font-size: var(--font-size-3);
+}
+
+.section-sent-posts textarea{
+    resize: none;
+    height: 130px;
+    padding: 28px 20px;
+}
+.section-sent-posts input::placeholder, .section-sent-posts textarea::placeholder{
+    color: var(--grey-3);
+}
+.section-sent-posts input:focus, .section-sent-posts textarea:focus{
+    border: 2px solid var(--brand-1);
+    outline: none;
+}
+.form-sent-post{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.button-form{
+    align-self: flex-end;
+   padding: 10.5px 12px;
+    font-weight: var(--font-weight-1);
+    background-color: var(--grey-4);
+    color: var(--grey-3);
+    border: none;
+    border-radius: 4px;
+  cursor: not-allowed;
+}
+
+.button-form-active{
+    align-self: flex-end;
+   padding: 10.5px 12px;
+    font-weight: var(--font-weight-1);
+    background-color: var(--brand-1);
+    color: var(--whiteFixed);
+    border: var(--brand-1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-form-active:hover{
+    background-color: var(--brand-2);
+}
